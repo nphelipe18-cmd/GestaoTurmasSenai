@@ -1,3 +1,22 @@
 @charset "UTF-8";
 @import "reset.css";
 @import "cores.css";
+<<<<<<< HEAD
+=======
+
+/* @font-face {
+     font-family: Fortnite;
+     src: url(fonts/fortnite/fortnite.otf)
+ } */
+
+@font-face {
+     font-family: Inter;
+     src: url(fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf)
+ }
+
+body{
+     color: var(--platinum);
+     font-family: Inter; 
+     background-color: var(--midnight-violet);
+ }
+>>>>>>> bc87cd55669df0b5e1d7d4b560372e79ba44c11f
