@@ -1,22 +1,84 @@
 @charset "UTF-8";
 @import "reset.css";
 @import "cores.css";
-<<<<<<< HEAD
-=======
 
-/* @font-face {
-     font-family: Fortnite;
-     src: url(fonts/fortnite/fortnite.otf)
- } */
 
 @font-face {
      font-family: Inter;
      src: url(fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf)
  }
 
-body{
-     color: var(--platinum);
-     font-family: Inter; 
-     background-color: var(--midnight-violet);
- }
->>>>>>> bc87cd55669df0b5e1d7d4b560372e79ba44c11f
+body {
+    color: var(--platinum);
+    font-family: Inter;
+    background-color: var(--midnight-violet);
+}
+.tituloPrincipal{
+    text-align: center;
+}
+.img-banner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: rgb(14, 171, 199);
+}
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: aqua;
+}
+
+section {
+    /* background-color: aquamarine; */
+}
+
+/* section section{
+           font-size: 0;
+        }    */
+#turmas .sala {
+    display: inline-block;
+    vertical-align: top;
+    background-color: burlywood;
+    min-height: 300px;
+    width: 100%;
+    min-height: 350px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+#turmas footer {
+    background-color: red;
+}
+
+#turmas footer h3 {
+    font-size: smaller;
+}
+
+#turmas .sala.turma_A{
+    background-color: bisque;
+    color: #000;
+}
+
+#turmas .sala.turma_B{
+    background-color: blueviolet;
+}
+
+
+.listaAlunos {
+    list-style: decimal-leading-zero;
+    margin-left: 30px;
+}
+.listaAlunos li {
+    padding: 5px;
+}
